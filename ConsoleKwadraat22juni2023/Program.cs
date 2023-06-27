@@ -8,7 +8,7 @@
         #region Kwadraat
         {
             Console.WriteLine("Welkom bij het kwadraat.");
-            string input = "";
+            string input = string.Empty;
             while (input != "stop" && input != "exit")
             {
                 Console.WriteLine("Geef een getal (exit is stop)");
@@ -26,7 +26,7 @@
         #region BerekenStraal
         {
             Console.WriteLine("Welkom bij de straal van een cirkel.");
-            string input = "";
+            string input = string.Empty;
             while (input != "stop" && input != "exit")
             {
                 Console.WriteLine("Geef de diameter (exit is stop)");
@@ -44,7 +44,7 @@
         #region BerekenOmtrek
         {
             Console.WriteLine("Welkom bij de omtrek van een cirkel.");
-            string input = "";
+            string input = string.Empty;
             while (input != "stop" && input != "exit")
             {
                 Console.WriteLine("Geef de diameter (exit is stop)");
@@ -62,7 +62,7 @@
         #region BerekenOppervlakte
         {
             Console.WriteLine("Welkom bij de oppervlakte van een cirkel.");
-            string input = "";
+            string input = string.Empty;
             while (input != "stop" && input != "exit")
             {
                 Console.WriteLine("Geef de diameter (exit is stop)");
@@ -79,7 +79,7 @@
         #region GeefGrootste
         {
             Console.WriteLine("Welkom bij de grootste.");
-            string input = "";
+            string input = string.Empty;
             while (input != "stop" && input != "exit")
             {
                 Console.WriteLine("Geef het eerste getal (exit is stop)");
@@ -102,7 +102,7 @@
         #region IsEven
         {
             Console.WriteLine("Welkom bij even getallen.");
-            string input = "";
+            string input = string.Empty;
             while (input != "stop" && input != "exit")
             {
                 Console.WriteLine("Geef een getal (exit is stop)");
