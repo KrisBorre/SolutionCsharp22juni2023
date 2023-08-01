@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleGrootste22juni2023",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKwadraat22juni2023", "ConsoleKwadraat22juni2023\ConsoleKwadraat22juni2023.csproj", "{B83EAF87-5BE2-43D3-AAC4-698AF6591929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMoverSetCursorPosition27juni2023", "StaticMoverSetCursorPosition27juni2023\StaticMoverSetCursorPosition27juni2023.csproj", "{983FB51E-FD96-4F11-A80A-0C0C00129772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMoverSetCursorPosition27juni2023", "StaticMoverSetCursorPosition27juni2023\StaticMoverSetCursorPosition27juni2023.csproj", "{983FB51E-FD96-4F11-A80A-0C0C00129772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumptiePrijsIndex27juni2023", "ConsumptiePrijsIndex27juni2023\ConsumptiePrijsIndex27juni2023.csproj", "{DAFCB00E-5430-4B48-9556-7BFF3B2AC74C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumptiePrijsIndex27juni2023", "ConsumptiePrijsIndex27juni2023\ConsumptiePrijsIndex27juni2023.csproj", "{DAFCB00E-5430-4B48-9556-7BFF3B2AC74C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKleurWeerstand27juni2023", "ConsoleKleurWeerstand27juni2023\ConsoleKleurWeerstand27juni2023.csproj", "{E5F0A304-4168-490C-B5BB-26E5B969AA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleKleurWeerstand27juni2023", "ConsoleKleurWeerstand27juni2023\ConsoleKleurWeerstand27juni2023.csproj", "{E5F0A304-4168-490C-B5BB-26E5B969AA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStudent27juni2023", "ConsoleStudent27juni2023\ConsoleStudent27juni2023.csproj", "{E9E123D4-1F8F-4E91-88B2-91263DFEFA04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleStudent27juni2023", "ConsoleStudent27juni2023\ConsoleStudent27juni2023.csproj", "{E9E123D4-1F8F-4E91-88B2-91263DFEFA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLIDSorting1Aug2023", "SOLIDSorting1Aug2023\SOLIDSorting1Aug2023.csproj", "{3C39BE17-8064-4E0B-A218-AEDA6C90049C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E9E123D4-1F8F-4E91-88B2-91263DFEFA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E123D4-1F8F-4E91-88B2-91263DFEFA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E123D4-1F8F-4E91-88B2-91263DFEFA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C39BE17-8064-4E0B-A218-AEDA6C90049C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C39BE17-8064-4E0B-A218-AEDA6C90049C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C39BE17-8064-4E0B-A218-AEDA6C90049C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C39BE17-8064-4E0B-A218-AEDA6C90049C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
