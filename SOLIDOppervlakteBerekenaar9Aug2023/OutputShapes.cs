@@ -2,7 +2,7 @@
 {
     internal class OutputShapes
     {
-        private Shapes shapes;
+        private readonly Shapes shapes;
 
         public OutputShapes(Shapes shapes)
         {
