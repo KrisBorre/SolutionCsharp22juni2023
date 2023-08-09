@@ -1,5 +1,4 @@
 ﻿using SOLIDSorting1Aug2023;
-using System;
 
 internal class Program
 {
