@@ -1,8 +1,8 @@
 ﻿namespace ConsoleStudent27juni2023
 {
-    internal enum Klassen { EA2, EB3, FC4, GD5 }
+    public enum Klassen { EA2, EB3, FC4, GD5 }
 
-    internal class Student27juni2023
+    public class Student27juni2023
     {
         public string Naam { get; set; }
         public int Leeftijd { get; set; }
