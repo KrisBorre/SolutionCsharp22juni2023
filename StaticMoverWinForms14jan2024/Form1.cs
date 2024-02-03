@@ -1,5 +1,3 @@
-using System.Drawing.Drawing2D;
-
 namespace StaticMoverWinForms14jan2024
 {
     public partial class Form1 : Form
