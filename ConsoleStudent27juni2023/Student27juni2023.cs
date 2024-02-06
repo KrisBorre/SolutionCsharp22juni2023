@@ -30,5 +30,16 @@
             Console.WriteLine($"Gemiddelde:             {BerekenTotaalCijfer():F1}");
             // index[,alignment][:formatString]
         }
+
+        public static Student27juni2023 ZoekStudent(Student27juni2023[] array, string naam)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i].Naam == naam)
+                    return array[i];
+            }
+
+            return null;
+        }
     }
 }

@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePhysicalUnits13jan20
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Console5jan2024", "Education.Console5jan2024\Education.Console5jan2024.csproj", "{C84572BE-8501-4D6D-9B5A-20BCA3F14502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMoverWinForms14jan2024", "StaticMoverWinForms14jan2024\StaticMoverWinForms14jan2024.csproj", "{CB9D2044-D50D-48FF-AF0E-F4D5AD5BA21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMoverWinForms14jan2024", "StaticMoverWinForms14jan2024\StaticMoverWinForms14jan2024.csproj", "{CB9D2044-D50D-48FF-AF0E-F4D5AD5BA21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStudent27juni2023.Test6feb2024", "ConsoleStudent27juni2023.Test6feb2024\ConsoleStudent27juni2023.Test6feb2024.csproj", "{6B765637-944A-4FA7-ABAA-0B6C2201B23F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{CB9D2044-D50D-48FF-AF0E-F4D5AD5BA21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB9D2044-D50D-48FF-AF0E-F4D5AD5BA21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB9D2044-D50D-48FF-AF0E-F4D5AD5BA21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B765637-944A-4FA7-ABAA-0B6C2201B23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B765637-944A-4FA7-ABAA-0B6C2201B23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B765637-944A-4FA7-ABAA-0B6C2201B23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B765637-944A-4FA7-ABAA-0B6C2201B23F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
