@@ -1,20 +1,20 @@
 ﻿using Education.BusinessLogicLayer;
 using Education.DataAccessLayer;
 
-namespace Education.Console5jan2024
+namespace Education.Console5apr2024
 {
-    public class ConsoleManager
+    public class ConsoleManager5apr2024
     {
         private readonly StudentService _studentService;
         private readonly TeacherService _teacherService;
 
-        public ConsoleManager()
+        public ConsoleManager5apr2024()
         {
             _teacherService = new TeacherService();
             _studentService = new StudentService();
         }
 
-        public ConsoleManager(StudentService serviceManager, TeacherService teacherService)
+        public ConsoleManager5apr2024(StudentService serviceManager, TeacherService teacherService)
         {
             _teacherService = teacherService;
             _studentService = serviceManager;
@@ -23,7 +23,7 @@ namespace Education.Console5jan2024
         public bool ShowMenu()
         {
             Console.Clear();
-            Console.WriteLine("Educatie database");
+            Console.WriteLine("Educatie database met Func delegate");
 
             Console.WriteLine("");
             Console.WriteLine("1 - Student toevoegen");
@@ -37,49 +37,31 @@ namespace Education.Console5jan2024
             Console.WriteLine("9 - Sluiten");
             Console.WriteLine("10 - Reset db");
 
+            var options = new Dictionary<int, Func<bool>>
+            {
+                { 1, AddStudent},
+                { 2, DeleteStudent},
+                { 3, AddTeacher},
+                { 4, DeleteTeacher},
+                { 5, AddCourse},
+                { 6, ShowCourses},
+                { 7, ShowCourseForTeacher},
+                { 8, ShowCourseForStudent},
+                { 9, Exit},
+                { 10, Reset},
+            };
+
             if (int.TryParse(Console.ReadLine(), out int option))
             {
-                switch (option)
+                if (options.ContainsKey(option))
                 {
-                    case 1:
-                        AddStudent();
-                        return true;
-                    case 2:
-                        DeleteStudent();
-                        return true;
-                    case 3:
-                        AddTeacher();
-                        return true;
-                    case 4:
-                        DeleteTeacher();
-                        return true;
-                    case 5:
-                        AddCourse();
-                        return true;
-                    case 6:
-                        ShowCourses();
-                        return true;
-                    case 7:
-                        ShowCourseForTeacher();
-                        return true;
-                    case 8:
-                        ShowCourseForStudent();
-                        return true;
-                    case 9:
-                        return false;
-                    case 10:
-                        EducationDbContext dbContext = new EducationDbContext();
-                        dbContext.Database.EnsureDeleted();
-                        dbContext.Database.EnsureCreated();
-                        return true;
-                    default:
-                        return true;
+                    return options[option]();
                 }
             }
             return true;
         }
 
-        public void AddStudent()
+        private bool AddStudent()
         {
             Console.WriteLine("Geef de naam van de student:");
             string? naam = Console.ReadLine();
@@ -100,9 +82,10 @@ namespace Education.Console5jan2024
             string? huisnummer = Console.ReadLine();
 
             _studentService.AddStudent(naam ?? string.Empty, contactGegeven ?? string.Empty, land ?? string.Empty, stad ?? string.Empty, straat ?? string.Empty, huisnummer ?? string.Empty);
+            return true;
         }
 
-        public void DeleteStudent()
+        private bool DeleteStudent()
         {
             Console.WriteLine("Geef de naam van de te verwijderen student:");
             string? naam = Console.ReadLine();
@@ -110,9 +93,10 @@ namespace Education.Console5jan2024
             {
                 _studentService.DeleteStudent(naam);
             }
+            return true;
         }
 
-        public void AddTeacher()
+        private bool AddTeacher()
         {
             Console.WriteLine("Geef de naam van de leerkracht:");
             string? naam = Console.ReadLine();
@@ -130,9 +114,10 @@ namespace Education.Console5jan2024
             string? huisnummer = Console.ReadLine();
 
             _teacherService.AddTeacher(naam ?? string.Empty, land ?? string.Empty, stad ?? string.Empty, straat ?? string.Empty, huisnummer ?? string.Empty);
+            return true;
         }
 
-        public void DeleteTeacher()
+        private bool DeleteTeacher()
         {
             Console.WriteLine("Geef de naam van de te verwijderen leerkracht:");
             string? naam = Console.ReadLine();
@@ -140,9 +125,10 @@ namespace Education.Console5jan2024
             {
                 _teacherService.DeleteTeacher(naam);
             }
+            return true;
         }
 
-        public void AddCourse()
+        private bool AddCourse()
         {
             Console.WriteLine("Geef de naam van de leerkracht:");
             string? naamLeerkracht = Console.ReadLine();
@@ -154,9 +140,10 @@ namespace Education.Console5jan2024
             string? beschrijving = Console.ReadLine();
 
             _teacherService.AddCourse(naamLeerkracht, naamStudent, beschrijving);
+            return true;
         }
 
-        public void ShowCourses()
+        private bool ShowCourses()
         {
             List<CourseItem> list = _teacherService.ShowCourse();
 
@@ -166,9 +153,10 @@ namespace Education.Console5jan2024
             }
             Console.WriteLine("Typ om terug naar het menu te gaan:");
             string? input = Console.ReadLine();
+            return true;
         }
 
-        public void ShowCourseForTeacher()
+        private bool ShowCourseForTeacher()
         {
             if (_teacherService.TeachersExist())
             {
@@ -197,9 +185,10 @@ namespace Education.Console5jan2024
 
             Console.WriteLine("Typ om terug naar het menu te gaan:");
             string? input = Console.ReadLine();
+            return true;
         }
 
-        public void ShowCourseForStudent()
+        private bool ShowCourseForStudent()
         {
             Console.WriteLine("Geef de naam van de student:");
             string? naamStudent = Console.ReadLine();
@@ -216,9 +205,21 @@ namespace Education.Console5jan2024
             }
             Console.WriteLine("Typ om terug naar het menu te gaan:");
             string? input = Console.ReadLine();
+            return true;
         }
 
+        private bool Exit()
+        {
+            return false;
+        }
 
+        private bool Reset()
+        {
+            EducationDbContext dbContext = new EducationDbContext();
+            dbContext.Database.EnsureDeleted();
+            dbContext.Database.EnsureCreated();
+            return true;
+        }
 
     }
 }

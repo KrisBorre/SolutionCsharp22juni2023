@@ -4,9 +4,11 @@ namespace Education.DataAccessLayer
 {
     public class EducationDbContext : DbContext
     {
+        // education5apr2024.db will be created in the folder SolutionCsharp22juni2023
+
         // The following configures EF to create a Sqlite database file in the
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite($"Data Source=education.db");
+            => options.UseSqlite($"Data Source=../../../../education5apr2024.db");
 
         public DbSet<Student> Students { get; set; }
 

@@ -37,17 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Console5jan2024",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMoverWinForms14jan2024", "StaticMoverWinForms14jan2024\StaticMoverWinForms14jan2024.csproj", "{CB9D2044-D50D-48FF-AF0E-F4D5AD5BA21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleStudent27juni2023.Test6feb2024", "ConsoleStudent27juni2023.Test6feb2024\ConsoleStudent27juni2023.Test6feb2024.csproj", "{6B765637-944A-4FA7-ABAA-0B6C2201B23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleStudent27juni2023.Test6feb2024", "ConsoleStudent27juni2023.Test6feb2024\ConsoleStudent27juni2023.Test6feb2024.csproj", "{6B765637-944A-4FA7-ABAA-0B6C2201B23F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryPhysicalUnits6feb2024", "LibraryPhysicalUnits6feb2024\LibraryPhysicalUnits6feb2024.csproj", "{F3EAEA1D-433B-4E68-AAAB-36F55FB1232B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryPhysicalUnits6feb2024", "LibraryPhysicalUnits6feb2024\LibraryPhysicalUnits6feb2024.csproj", "{F3EAEA1D-433B-4E68-AAAB-36F55FB1232B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryPhysicalUnits6feb2024.Test", "LibraryPhysicalUnits6feb2024.Test\LibraryPhysicalUnits6feb2024.Test.csproj", "{A6AC8B89-68C3-4856-A384-8AAF06CC0668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryPhysicalUnits6feb2024.Test", "LibraryPhysicalUnits6feb2024.Test\LibraryPhysicalUnits6feb2024.Test.csproj", "{A6AC8B89-68C3-4856-A384-8AAF06CC0668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryPerson6feb2024", "LibraryPerson6feb2024\LibraryPerson6feb2024.csproj", "{F30F5914-7615-45AB-A131-5307CB48DA4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryPerson6feb2024", "LibraryPerson6feb2024\LibraryPerson6feb2024.csproj", "{F30F5914-7615-45AB-A131-5307CB48DA4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePhysicalUnits6feb2024", "ConsolePhysicalUnits6feb2024\ConsolePhysicalUnits6feb2024.csproj", "{53038423-E1CA-47F2-B6B6-C4841659AC16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePhysicalUnits6feb2024", "ConsolePhysicalUnits6feb2024\ConsolePhysicalUnits6feb2024.csproj", "{53038423-E1CA-47F2-B6B6-C4841659AC16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryPerson6feb2024.Test", "LibraryPerson6feb2024.Test\LibraryPerson6feb2024.Test.csproj", "{F8B25837-3AF3-4520-979A-47CE63FC53B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryPerson6feb2024.Test", "LibraryPerson6feb2024.Test\LibraryPerson6feb2024.Test.csproj", "{F8B25837-3AF3-4520-979A-47CE63FC53B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Console5apr2024", "Education.Console5apr2024\Education.Console5apr2024.csproj", "{FCF8E577-20ED-4D44-ADB8-11D55025AD88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{F8B25837-3AF3-4520-979A-47CE63FC53B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B25837-3AF3-4520-979A-47CE63FC53B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B25837-3AF3-4520-979A-47CE63FC53B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF8E577-20ED-4D44-ADB8-11D55025AD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF8E577-20ED-4D44-ADB8-11D55025AD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF8E577-20ED-4D44-ADB8-11D55025AD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF8E577-20ED-4D44-ADB8-11D55025AD88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

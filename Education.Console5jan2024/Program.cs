@@ -1,4 +1,4 @@
-﻿using Education.Console5jan2023;
+﻿using Education.Console5jan2024;
 
 internal class Program
 {
