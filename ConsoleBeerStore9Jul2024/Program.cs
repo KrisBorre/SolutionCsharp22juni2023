@@ -219,7 +219,7 @@ namespace ConsoleBeerStore9Jul2024
         {
             if (string.IsNullOrEmpty(text))
             {
-                return new string[0]; // Empty array for empty string
+                return Array.Empty<string>();
             }
 
             List<string> parts = new List<string>();
