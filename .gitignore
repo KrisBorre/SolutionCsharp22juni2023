@@ -364,3 +364,6 @@ FodyWeavers.xsd
 /database15mei2024.db
 /database15mei2024.db-shm
 /database15mei2024.db-wal
+*.db
+*.db-shm
+*.db-wal
