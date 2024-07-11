@@ -1,0 +1,114 @@
+KlantID,Naam,Land,Plaats,Adres
+100219,Bier en Co Amsterdam BV,Nederland,,
+100452,B&S Global Food Purchase B.V.,Nederland,Dordrecht,"Rijksstraatweg, 7"
+101666,A.T.B. Laveno SAS/SRL,Italië,Laveno Mombello,
+101989,Prima Beer ApS,Denemarken,Hobro,
+101992,"WENZHOU WIN-WIN INTERNATIONAL TRADE CO., LTD",China,Wenzhou,
+102527,Espacios Cervecera SL,Spanje,MADRID,
+100008,Difcom S.A.,Frankrijk,,"Rue du Dr Rou,16"
+100017,Den-Belgiske-Olmand,Denemarken,,
+100034,Da Pian S.R.L.,Italië,Ponzano Veneto,
+100039,Henk Smit,Nederland,,
+100041,Soren Claus Knudsen,Denemarken,Helsinge,
+100052,Haus der 131 biere Christl Stark,Duitsland,Hamburg,"Karlshöhe, 27"
+100175,Hansen Dranken BV,Nederland,,"Veestraat, 6"
+100184,Drankenhandel Van Dorst BV,Nederland,Roosendaal,
+100185,FASSBIERE S.L.,Spanje,Algete,
+100220,Belgisk Bryg I/S,Denemarken,,
+100223,Eurosaga SRL,Italië,San Giuliano Milanese,
+100226,Cave Rudi,Frankrijk,Payzac,
+100266,La Centrale Del Gusto di Pedroli Nicola Domenico,Italië,Casorezzo,
+100585,Multi Bier Asten BV,Nederland,Helmond,"Varenschut, 25"
+100620,Ordioni Fabio di Piper Pub,Italië,TORINO,
+100772,Grand Cru S.A.S.,Italië,Santarcangelo di Romagna,"G. da Serravalle, 4"
+101343,Multidrink S.R.L.(Multibirra),Italië,,
+101407,"PARO s.c.Robert Toczek,Pawel Salapa",Polen,Krakau,
+101492,Cherry Pickers Europe,Groot-Brittannië,Norwich (Norfolk),"Pottergate, 7"
+101497,Cafe-Zaal Biljartcentrum Den Hoek,Nederland,,
+101559,BSBP BVBA,België,Hoogstraten,
+101577,Jason Pugh,Australië,Redhead,
+101598,Hexagon Europe BVBA,België,Oudergem,
+101637,Brygshoppen ApS,Denemarken,Randers SO,
+101653,Zombier Cervesas S.L.,Spanje,,
+101671,SPECIAL BEERS S.L.,Spanje,Algete,"Camino de Covicha, 80"
+101682,KANAAL LTD,Bulgarije,,"bul. Madrid, 2"
+101734,Taccolini S.R.L.,Italië,Lovere,"Via Provinciale, 8"
+101851,Intertracon,België,Neerpelt,
+101887,S.c.All Beer House S.r.l.,Roemenië,,
+101903,Enoteca - Beershop,Italië,Roma,
+101925,Beautiful Beers,Groot-Brittannië,Bury St. Edmunds (Suffolk),"St. John's Street, 1b"
+101926,Z-Media s.r.o.,Tsjechië,,
+101936,Bier-Centrum-Oost,Nederland,,"Neushoornweg, 232"
+101946,Ioannis Tympampas (Valentin),Griekenland,,"Feron, 13"
+101961,Flink Gegist,Nederland,Delft,"Oosteinde, 227"
+101973,Made in Belgium,Italië,Lentate Sul Seveso,
+101981,Asolo Bevande S.r.l.,Italië,Fonte,
+101987,Topace Europe,België,,
+101988,Cantina delle Birra Srl,Italië,Riccione,"Via Virgilio, 17"
+101990,Echec & Malt Sàrl,Zwitserland,,"rue du Valentin, 62"
+102007,Marybel House Ltd,Bulgarije,Onbekend,
+102008,Nico De Backer S.a.g.l.,Zwitserland,,"via Valeggia, 5"
+102017,De Bierlijn Rotterdam BV,Nederland,Moerdijk,"Plaza, 13F"
+102027,De Vliegende Hollander Biercafé,Nederland,Middelburg,"Damplein, 46"
+102041,MGZ di Ottelli Zian & C.SNC,Italië,Bergamo,
+102046,Peeman Dranken,Nederland,Nijmegen,
+102068,Pub Amore del Tropico Bogumil Skorupinski,Polen,Pozna?,
+102071,Planet Beverage SRL,Italië,Capaccio,"Via Strada Statale, 18"
+102072,Belgituda,Portugal,Obidos,"Estrada Nacional,8"
+102074,Brausturm Bierverlag GmbH,Duitsland,Hamburg,"Eduardstraße, 48"
+102076,Klosterbryggeriet A/S,Denemarken,,
+102077,LB Bieren SA,Panama,Panama City,Calle 67 Este
+102109,PEIKER BEERS S.L.,Spanje,,"Plaza Cataluna,11"
+102112,TripelB srl,Italië,Torino,
+102119,KnR Korea,Zuid-Korea,Seoul,"Seocho-gu hars Yangjaedong, 4-14, Building B1"
+102123,Birra Ingross s.r.l.,Italië,Belvedere di Tezze sul Brenta,
+102172,Virbum.com Ltd.,Estland,Tallinn,
+102173,Huang Trading bvba,België,Deurne,"Bisschoppenhoflaan, 79/1"
+102183,A la bière comme à la bière SAS,Frankrijk,Parijs,
+102199,Het Eiland S.L.,Spanje,Adeje,
+102209,Aston Chandler Limited,Hong Kong,,"Unit 903-06A 9/F, Kowloon Centre, 33 Ashley Road"
+102235,Pentrade Duty Free B.V.,Nederland,Rhoon,
+102244,Mondobirra S.R.L.,Italië,Maddaloni,"San Francesco D' Assisi, 2"
+102273,De Bierkoning,Nederland,Amsterdam,"Paleisstraat, 125"
+102287,Birre Artigianali Srl,Italië,S.Nicolò a Tordino,"C. Colombo, 284"
+102297,Art Beer Cafe Katarzyna Gasiewska,Polen,PIASECZNO,
+102302,Bruxale Connection SDN BHD,Maleisië,Kuala Lumpur,
+102303,All People Want Beer,Luxemburg,Wiltz,
+102320,5 Sterne Deutschland SRL,Duitsland,,
+102321,John King Polska Sp. z o.o.,Polen,Wolica,"S?koci?ska, 24"
+102329,La Caisse de Bières,Frankrijk,,"Rue Kleber, 21"
+102345,Unibrau,Griekenland,Gerakas (Athens),"Aristotelous, 79"
+102362,Gisting speciaalbieren V.O.F.,Nederland,,"Deltalaan, 226"
+102381,Eurodrink Srl,Italië,Marene,
+102401,Boutique Beer Imports Limited,Nieuw-Zeeland,Wellington,
+102406,Exporun Sarl,Luxemburg,Roullingen,
+102414,BmB Tech Company,Hong Kong,,
+102420,De Vinotake BV,Nederland,,"De els, 44E"
+102432,BEER PRO DISTRIBUTION d.o.o.,Slovenië,Nova Gorica,
+102482,Melimato Projects SL,Spanje,Barcelona,
+102483,White Pony Pub,België,Antwerpen,"Rotterdamstraat, 105"
+102488,"Ningbo Wohai International Trading Co., Ltd",China,Onbekend,Onbekend
+102491,Beerbuzz,Denemarken,,"Kronosvej, 161"
+102523,Eurasia Trading,Japan,,"Eitai Koutou-ku, 1-10-11"
+102524,Walter Overeem,Nederland,Amersfoort,"Boldershof, 24"
+102526,Pesco Trading BV,Nederland,,
+102538,Alternative Bottles,Frankrijk,Parijs,"Rue Des 3 Bornes, 9"
+102542,Mooibier.Nl,Nederland,s-gravenhage,"Ridderlaan, 73"
+102555,Helsinki Beer Festival oy,Finland,Helsinki,"Karjalankatu, 2"
+102556,RYS Trading Company B.V.,Nederland,Breda,
+102561,Big Hop Sagl,Zwitserland,Tremona,"via Antonio Rinaldi, 24"
+102572,Youbeer s.n.c.,Italië,Senigallia,"via Ardigò, 25"
+102647,"AMSTAR, d.o.o.",Slovenië,,
+102650,Het Bierhuis,Nederland,,"Van Goorstraat, 5"
+100063,Den Troetsel,België,Niel,
+100221,De Man Van Drank,Nederland,Amsterdam,
+100504,Den Arend,België,Hoboken,
+101100,Bier en Brouwsels,Nederland,Dordrecht,
+101307,Lambert,België,Antwerpen,
+101624,HLS,België,Antwerpen,
+101900,Gagelmans,België,Antwerpen,
+101969,Het Welzijn,België,Hemiksem,
+102011,De Witte,België,Hemiksem,
+102479,Beerhub,China,Wenzhou,
+102582,Ravenstein,België,Schelle,
+102599,Bernart,België,Schelle,

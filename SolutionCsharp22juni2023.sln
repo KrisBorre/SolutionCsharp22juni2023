@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryPerson6feb2024.Test"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Console5apr2024", "Education.Console5apr2024\Education.Console5apr2024.csproj", "{FCF8E577-20ED-4D44-ADB8-11D55025AD88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSql15mei2024", "ConsoleSql15mei2024\ConsoleSql15mei2024.csproj", "{0DECD46C-346A-4B61-BC4B-3164DB142C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSql15mei2024", "ConsoleSql15mei2024\ConsoleSql15mei2024.csproj", "{0DECD46C-346A-4B61-BC4B-3164DB142C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBeerStore9Jul2024", "ConsoleBeerStore9Jul2024\ConsoleBeerStore9Jul2024.csproj", "{2CEAA5FB-194B-4AA3-9B73-9EE35579AAA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{0DECD46C-346A-4B61-BC4B-3164DB142C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DECD46C-346A-4B61-BC4B-3164DB142C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DECD46C-346A-4B61-BC4B-3164DB142C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CEAA5FB-194B-4AA3-9B73-9EE35579AAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CEAA5FB-194B-4AA3-9B73-9EE35579AAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CEAA5FB-194B-4AA3-9B73-9EE35579AAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CEAA5FB-194B-4AA3-9B73-9EE35579AAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
