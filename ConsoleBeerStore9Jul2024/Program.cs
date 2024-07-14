@@ -273,12 +273,12 @@ namespace ConsoleBeerStore9Jul2024
         [Key]
         public int Id { get; set; }
 
-        public string ArtikelNummer;
-        public string Omschrijving;
-        public double Plato;
-        public double AlcoholGraad;
-        public string Eenheid;
-        public double PrijsInEuroExclusiefTaksen;
+        public string ArtikelNummer { get; set; }
+        public string Omschrijving { get; set; }
+        public double Plato { get; set; }
+        public double AlcoholGraad { get; set; }
+        public string Eenheid { get; set; }
+        public double PrijsInEuroExclusiefTaksen { get; set; }
     }
 
     internal class Customer
@@ -286,11 +286,11 @@ namespace ConsoleBeerStore9Jul2024
         [Key]
         public int Id { get; set; }
 
-        public string KlantID;
-        public string Naam;
-        public string Land;
-        public string Plaats;
-        public string Adres;
+        public string KlantID { get; set; }
+        public string Naam { get; set; }
+        public string Land { get; set; }
+        public string Plaats { get; set; }
+        public string Adres { get; set; }
     }
 
     internal class Sale
@@ -298,18 +298,18 @@ namespace ConsoleBeerStore9Jul2024
         [Key]
         public int Id { get; set; }
 
-        public int ArticleId;
-        public int CustomerId;
+        public int ArticleId { get; set; }
+        public int CustomerId { get; set; }
 
-        public string Datum;
-        public DateTime DateTime;
-        public string Klantennummer;
-        public string Artikelnummer;
-        public bool IsLeeggoed;
-        public string Omschrijving;
-        public double AantalGeboekt;
-        public string Basiseenheid;
-        public double OmzetInEuroNaKorting;
-        public double TotaleKorting;
+        public string Datum { get; set; }
+        public DateTime DateTime { get; set; }
+        public string Klantennummer { get; set; }
+        public string Artikelnummer { get; set; }
+        public bool IsLeeggoed { get; set; }
+        public string Omschrijving { get; set; }
+        public double AantalGeboekt { get; set; }
+        public string Basiseenheid { get; set; }
+        public double OmzetInEuroNaKorting { get; set; }
+        public double TotaleKorting { get; set; }
     }
 }
