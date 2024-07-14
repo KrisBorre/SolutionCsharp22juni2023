@@ -208,8 +208,150 @@ namespace ConsoleBeerStoreSqlConnection12Jul2024
             //string query18 = "SELECT * FROM customers WHERE land <> 'Denemarken'";
             //ExecuteQuery(query18);
 
-            string query19 = "SELECT * FROM articles";
-            ExecuteQuery(query19);
+            //string query19 = "SELECT * FROM articles";
+            //ExecuteQuery(query19);
+
+            // What is the total sales amount?
+            //string query20 = "SELECT SUM(OmzetInEuroNaKorting) AS TotalSales FROM Sales";
+            //ExecuteQuery(query20);
+            /*
+            TotalSales
+            5009564,60
+            */
+
+            // What are the top 10 articles sold by quantity?
+            //string query21 = @"SELECT Omschrijving, SUM(AantalGeboekt) AS TotalQuantitySold
+            //            FROM Sales
+            //            GROUP BY Omschrijving
+            //            ORDER BY TotalQuantitySold DESC
+            //            LIMIT 10;";
+            //ExecuteQuery(query21);
+            /*
+            Omschrijving    TotalQuantitySold
+            Vedett Extra White 24/33cl      359712,00
+            Lindemans Kriek 24/25cl 265896,00
+            Rochefort 10 24/33cl    231504,00
+            Lindemans Pecheresse 24/25cl    174552,00
+            Duvel 24/33cl   146520,00
+            Chimay Blauw 24/33cl    132892,00
+            Rochefort 8 24/33cl     130660,00
+            Chimay Rood 24/33cl     125760,00
+            La Chouffe 24/33cl      119812,00
+            St.Bernardus Abt 12 24/33cl     119640,00
+            */
+
+            // What is the total sales amount for each customer?
+            //string query22 = @"SELECT c.Naam, SUM(s.OmzetInEuroNaKorting) AS TotalSales
+            //    FROM Sales s
+            //    INNER JOIN Customers c ON s.CustomerId = c.Id
+            //    GROUP BY c.Naam
+            //    ORDER BY TotalSales DESC;";
+            //ExecuteQuery(query22);
+            /*
+            Naam    TotalSales
+            Hansen Dranken BV       786921,90
+            Huang Trading bvba      488960,21
+            FASSBIERE S.L.  404064,15
+            WENZHOU WIN-WIN INTERNATIONAL TRADE CO., LTD    357107,94
+            Beerhub 268748,15
+            RYS Trading Company B.V.        263743,48
+            Multi Bier Asten BV     237556,33
+            Henk Smit       198900,70
+            Ningbo Wohai International Trading Co., Ltd     177088,19
+            */
+
+            // How many customers are from each country?
+            //string query23 = @"SELECT c.Land, COUNT(*) AS CustomerCount
+            //    FROM Customers c
+            //    GROUP BY c.Land
+            //    ORDER BY CustomerCount DESC;";
+            //ExecuteQuery(query23);
+            /*
+            Land    CustomerCount
+            Nederland       23
+            Itali?  20
+            Belgi?  15
+            Spanje  7
+            Denemarken      7
+            */
+
+            // Get details of customers along with their most recent purchase information (e.g., article name, date).
+            //string query24 = @"SELECT c.Naam, s.Omschrijving, s.OmzetInEuroNaKorting, s.DateTime AS LatestPurchaseDate
+            //        FROM Customers c
+            //        INNER JOIN Sales s ON s.CustomerId = c.Id
+            //        ORDER BY s.DateTime DESC
+            //        LIMIT 10;";
+            //ExecuteQuery(query24);
+            /*
+            Naam    Omschrijving    OmzetInEuroNaKorting    LatestPurchaseDate
+            Den-Belgiske-Olmand     Boon Oude Gueuze 12/37,5cl      30,51   2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Boon Kriek 12/37.5cl    98,41   2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Lindemans Apple 24/25cl 73,39   2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Lindemans Kriek 24/25cl 173,65  2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Lindemans Pecheresse 24/25cl    171,73  2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Mort Subite Gueuze 20/37.5cl    137,27  2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Saison Dupont Bio 24/25cl       84,14   2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Achel blond 24/33cl     92,13   2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Brunehaut Blonde Bio 24/33cl    42,36   2017-07-15 00:00:00
+            Den-Belgiske-Olmand     Brugge Tripel 24/33cl   58,23   2017-07-15 00:00:00
+            */
+
+            //string query25 = "SELECT * FROM articles ORDER BY AlcoholGraad DESC LIMIT 10";
+            //ExecuteQuery(query25);
+            /*
+            Id      ArtikelNummer   Omschrijving    Plato   AlcoholGraad    Eenheid PrijsInEuroExclusiefTaksen
+            1985    1010252 Uiltje Old Enough To Drink 24/33cl      25,00   21,00   24/33cl 166,63
+            2006    1007031 Watt Dickie Brewdog     30,00   20,00   60ml    6,50
+            1199    1006572 Mikkeller French Oak Series 2X6/37,5cl  36,40   19,30   237,5cl6/3      83,00
+            1979    1010113 Uiltje Mind your step Bourbon BA Sequence 2Y 15/50      30,00   19,20   15/50cl 169,71
+            1147    1006350 Mikkeller Barrel Aged Black-BA imp.Stout 12/37,5cl      30,00   18,80   12/37,5cl       71,61
+            1165    1007186 Mikkeller Black 12/37,5cl       42,00   18,70   12/37,5cl       58,82
+            1168    1006349 Mikkeller Black Impy Stout 12/37,5cl    30,00   17,50   12/37,5cl       55,86
+            1169    1007223 Mikkeller Black Inc & Blood BA Brandy 6/75cl    30,00   17,00   6/75cl  75,52
+            275     1007051 Brewdog Tokyo*  30,00   16,50   24/33cl 173,05
+            1170    1006791 Mikkeller Black Inc Crooked Moon 6/75cl 30,00   16,50   6/75cl  57,59
+            */
+
+            //string query26 = @"SELECT c.Naam, c.Land, c.Plaats, c.Adres, s.Omschrijving, s.OmzetInEuroNaKorting AS OmzetInEuro, s.DateTime, a.AlcoholGraad 
+            //        FROM articles a, customers c, sales s 
+            //        WHERE a.ArtikelNummer = s.Artikelnummer AND s.CustomerId = c.Id 
+            //        ORDER BY s.OmzetInEuroNaKorting DESC 
+            //        LIMIT 10;";
+            //ExecuteQuery(query26);
+            /*
+            Naam    Land    Plaats  Adres   Omschrijving    OmzetInEuro     DateTime        AlcoholGraad
+            Beerhub China   Wenzhou         Vedett Extra White 24/33cl      39984,00        2017-06-15 00:00:00     4,70
+            WENZHOU WIN-WIN INTERNATIONAL TRADE CO., LTD    China   Wenzhou         Rochefort 10 24/33cl    37260,94        2016-09-15 00:00:00     11,30
+            Beerhub China   Wenzhou         Chimay Blauw 24/33cl    37121,66        2016-11-15 00:00:00     9,00
+            Beerhub China   Wenzhou         Rochefort 10 24/33cl    28620,00        2017-07-15 00:00:00     11,30
+            Beerhub China   Wenzhou         Duvel 24/33cl   23841,45        2017-04-15 00:00:00     8,50
+            Beerhub China   Wenzhou         Chimay Rood 24/33cl     22779,09        2016-11-15 00:00:00     7,00
+            Beerhub China   Wenzhou         Rochefort 10 24/33cl    21463,56        2016-11-15 00:00:00     11,30
+            WENZHOU WIN-WIN INTERNATIONAL TRADE CO., LTD    China   Wenzhou         Chimay Blauw 24/33cl    20904,00        2017-04-15 00:00:00     9,00
+            Huang Trading bvba      Belgi?  Deurne  Bisschoppenhoflaan, 79/1        Rochefort 10 24/33cl    20365,58        2017-04-15 00:00:00     11,30
+            WENZHOU WIN-WIN INTERNATIONAL TRADE CO., LTD    China   Wenzhou         Rochefort 10 24/33cl    19966,12        2016-05-15 00:00:00     11,30
+            */
+
+            string query27 = @"SELECT a.AlcoholGraad, SUM(s.OmzetInEuroNaKorting) AS Omzet
+                FROM articles a, sales s 
+                WHERE a.ArtikelNummer = s.Artikelnummer 
+                GROUP BY a.AlcoholGraad 
+                ORDER BY SUM(s.OmzetInEuroNaKorting) DESC
+                LIMIT 10;";
+            ExecuteQuery(query27);
+            /*
+            AlcoholGraad    Omzet
+            8,00    687560,41
+            9,00    330807,86
+            8,50    327166,27
+            11,30   323188,32
+            7,00    311588,86
+            10,00   247010,66
+            3,50    240646,83
+            4,70    237699,49
+            6,00    225765,42
+            9,50    218661,80
+            */
 
 
             Console.WriteLine("End of program. Press enter.");
