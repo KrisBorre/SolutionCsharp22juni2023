@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBeerStoreSqlConnecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBeerStoreDatabase11Jul2024", "ConsoleBeerStoreDatabase11Jul2024\ConsoleBeerStoreDatabase11Jul2024.csproj", "{93C31905-FF3C-408C-90B4-C1FCAA59B784}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBeerStoreSqlConnection12Jul2024", "ConsoleBeerStoreSqlConnection12Jul2024\ConsoleBeerStoreSqlConnection12Jul2024.csproj", "{CCF48485-6D1E-4798-A602-5FB0B468897B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{93C31905-FF3C-408C-90B4-C1FCAA59B784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93C31905-FF3C-408C-90B4-C1FCAA59B784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93C31905-FF3C-408C-90B4-C1FCAA59B784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF48485-6D1E-4798-A602-5FB0B468897B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF48485-6D1E-4798-A602-5FB0B468897B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF48485-6D1E-4798-A602-5FB0B468897B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF48485-6D1E-4798-A602-5FB0B468897B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
